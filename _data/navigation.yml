@@ -1,0 +1,9 @@
+- name: Online GAPS
+  link: "https://gapsworkshop.github.io/online/"
+  target: "_blank"
+- name: Past GAPS
+  link: "/past-gaps"
+  target: ""
+# - name: Related Publications
+#   link: "/publications"
+#   target: ""
