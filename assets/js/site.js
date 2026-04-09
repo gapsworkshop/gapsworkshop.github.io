@@ -11,10 +11,13 @@ $(document).ready(function () {
         $window.on('resize', resize);
 	$hamSymb.on('click', eatHamburger);
 	$document.on('click', closeHamburger);
-        $('a[href^="#_"]').on('click', smoothScroll);
+        $('a[href^="#"]:not([href="#"])').on('click', smoothScroll);
+
+	// Tab click behavior
+	// $('.button-primary').on('click', tabClick);
         resize();
     }
-    
+
     function resize() {
 	closeHamburger();
         $body.removeClass('has-docked-nav');
