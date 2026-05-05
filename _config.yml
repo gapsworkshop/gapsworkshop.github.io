@@ -33,6 +33,8 @@ sass:
   style: compressed
 timezone: UTC
 
+google: "v4JhPdP7T5fUY9QmdbUhBVI2ElJRfZqYM3EPmwodQrQ"
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
